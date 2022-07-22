@@ -1,5 +1,5 @@
 import {
-  saveUser, getUser, inputName, inputScore
+  saveUser, getUser, inputName, inputScore,
 } from './api';
 
 const scoreList = document.querySelector('.score-list');
