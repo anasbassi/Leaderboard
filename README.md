@@ -1,7 +1,8 @@
 # Leaderboard
 
-> Leaderboard website is a page that contains information about scores and names of participants.
+> Leaderboard website is a page that contains information about scores and names of participants in a game.
 > The list can be generated from the application by writing in the field provided,
+> The app also preserves data using the external Leaderboard API.
 
 The pull request is opened to get a review on the project and check for any required changes.
 

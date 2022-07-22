@@ -1,16 +1,27 @@
+import {
+  saveUser, getUser, inputName, inputScore,
+} from './api';
+
 const scoreList = document.querySelector('.score-list');
-const inputName = document.querySelector('#name');
-const inputScore = document.querySelector('#score');
 const submitBtn = document.querySelector('.btn');
 
-const addScore = () => {
+const scoreBoard = async () => {
+  const users = await getUser();
+  users.result.sort((a, b) => b.score - a.score);
+  scoreList.innerText = '';
+  users.result.forEach((user) => {
+    const score = document.createElement('li');
+    score.classList.add('list-item');
+    score.innerText = `${user.user} : ${user.score}`;
+    scoreList.appendChild(score);
+  });
+};
+
+const addScore = async () => {
   if (!inputName.value || !inputScore.value) return;
-  const score = document.createElement('li');
-  score.classList.add('list-item');
-  score.innerText = `${inputName.value} : ${inputScore.value}`;
-  scoreList.appendChild(score);
+  saveUser();
 };
 
 export {
-  addScore, scoreList, inputName, inputScore, submitBtn,
+  addScore, scoreBoard, scoreList, submitBtn,
 };
