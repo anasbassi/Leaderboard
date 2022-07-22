@@ -1,4 +1,6 @@
-import {  saveUser, getUser, inputName, inputScore, } from './api';
+import {
+  saveUser, getUser, inputName, inputScore
+} from './api';
 
 const scoreList = document.querySelector('.score-list');
 const submitBtn = document.querySelector('.btn');

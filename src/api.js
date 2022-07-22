@@ -1,3 +1,4 @@
+/* eslint-disable*/
 const inputName = document.querySelector('#name');
 const inputScore = document.querySelector('#score');
 
@@ -13,7 +14,7 @@ const createGame = async () => {
   });
   const result = await response.json();
   return result;
-}
+};
 
 const saveUser = async () => {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7bassiOTTVg2fUdz/scores/', {
@@ -32,12 +33,8 @@ const saveUser = async () => {
 
 const getUser = async () => {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7bassiOTTVg2fUdz/scores/');
-  try {
     const data = await response.json();
     return data;
-  } catch (error) {
-    console.log(error);
-  }
 };
 
 export {
