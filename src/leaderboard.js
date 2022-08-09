@@ -13,7 +13,9 @@ const scoreBoard = async () => {
     const score = document.createElement('li');
     score.classList.add('list-item');
     score.innerText = `${user.user} : ${user.score}`;
+    const hr = document.createElement('hr');
     scoreList.appendChild(score);
+    scoreList.appendChild(hr);
   });
 };
 
