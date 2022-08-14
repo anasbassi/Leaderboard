@@ -20,7 +20,7 @@ const scoreBoard = async () => {
 };
 
 const addScore = async () => {
-  if (!inputName.value || !inputScore.value) return;
+  if (inputName.value.trim() === '' || inputScore.value.trim() === '') return;
   saveUser();
 };
 
