@@ -103,7 +103,7 @@ form {
   height: 20px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   main {
     flex-direction: column;
   }
@@ -116,4 +116,4 @@ form {
   .recent-scores {
     width: 85%;
   }
-} 
+}
