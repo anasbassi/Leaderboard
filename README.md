@@ -3,9 +3,6 @@
 > Leaderboard website is a page that contains information about scores and names of participants in a game.
 > The list can be generated from the application by writing in the field provided,
 > The app also preserves data using the external Leaderboard API.
-> The app was then styled.
-
-The pull request is opened to get a review on the project and check for any required changes.
 
 ## Built With
 
@@ -18,9 +15,9 @@ The pull request is opened to get a review on the project and check for any requ
 
 [View Live Demo](https://anasbassi.github.io/Leaderboard/dist/)
 
-### Setup
+## Getting Started
 
-> Open GitHub and go to my GitHub repository name: to do list.to clone.
+> Open GitHub and go to my GitHub repository name: Leaderboard to clone.
 > Click “Code” and copy the given URL.
 > click code and copy the URL.
 > click code and copy the URL.
@@ -44,19 +41,19 @@ $ git clone(<https://github.com/anasbassi/Leaderboard>)
 
 ## Authors
 
-**Anas Abubakar Bassi**
+👤 **Anas Abubakar Bassi**
 
 - GitHub: [@anasbassi](https://github.com/anasbassi)
 - Twitter: [@anasabu92568449](https://twitter.com/anasabu92568449)
 - LinkedIn: [Anas Abubakar](https://linkedin.com/in/anas-abubakar-7b352722b)
 
-## :handshake: Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/anasbassi/todo-list/issues).
 
 ## Show your support
 
-Give a :star:️ if you like this project!
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
@@ -64,6 +61,6 @@ Give a :star:️ if you like this project!
 - Inspiration
 - etc
 
-## :memo: License
+## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
